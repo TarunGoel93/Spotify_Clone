@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+
+<div class="container">
+<div id="d1">
+  <div id="icons"><i class="fa-solid fa-house" id="i1" data-tooltip="Home" ></i>
+    <div id="i2" data-tooltip="Search"><i class="fa-solid fa-magnifying-glass"></i></div>
+    <div id="i3" data-tooltip="Expand Your Library"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <div id="liked" data-tooltip="Liked Songs"><i id="heart" class="fa-solid fa-heart"></i></div>
+    <div id="parche" data-tooltip="My Play-list"><img src="https://cover.mr-punjab.com/600x600/40676.jpg" id="parcheimg"></div>
+    <div id="guru" data-tooltip="Guru Randhawa "><img src="https://gumlet.assettype.com/freepressjournal%2Fimport%2F2018%2F08%2F39322759_299255927547450_5505033147206598656_n.jpg?rect=0%2C0%2C800%2C450" id="guruimg"></div></div>
+<div id="d2">
+  
+<div class="greeting" id="greeting"></div>
+<div class="songboxes">
+  <div id="inline1">
+  <div id="sbox1"><img src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb320d115629a65c245a43b00f/1/en/default" id="mix1"><p id="mix11">Daily Mix 1</p><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p1" style="display: none;"></div>
+  <div id="sbox2"><img src="https://i.scdn.co/image/ab67706f000000033676fcd91c7f3e300ccd6deb" id="hot1"><p id="hot">Hot Hits Hindi</p><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p2" style="display: none;"></div>
+  <div id="sbox3"><img src="https://www.desicomments.com/wp-content/uploads/Honey-Singh-With-Cell-Phone.jpg"  id="honeySingh"><p id="yo">Yo Yo Honey Singh</p><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p3" style="display: none;"></div>
+</div>
+<div id="inline2">
+  <div id="sbox4"><img src="https://i.scdn.co/image/ab67616d0000b2733214a2166b1a976646ad50aa" id="d101"><p id="dd101">Gurjari</p><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p4" style="display: none;"></div>
+  <div id="sbox5"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/43/d3/f2/43d3f231-0ecd-e679-4fbc-4085f9050971/artwork.jpg/1200x1200bf-60.jpg"id="dak"><p id="daku">Daku</p><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p5" style="display: none;"><img src="gif1-unscreen.gif" id="gif5" style="display: none;"><img src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-1/254000/06-512.png" id="pause5" style="display: none;"></div>
+  <div id="sbox6"><img src="http://bollyhollybaba.com/wp-content/uploads/2019/12/Parmish-Verma.jpg" id="verma"><p id="par">Parmish Verma</p><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p6" style="display: none;"></div>
+</div>
+</div>
+<div id="heading">
+  <p id="h1">Made For You</p>
+  <p id="h2">Show All</p>
+</div>
+<div class="song">
+  <div id="s1"><img src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb715144251d7bdbeb2efbe7a9/2/en/large" id="mix2"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p11" style="display: none;" ><p id="mix22">Daily Mix 2</p><p id="mix222">Yo Yo Honey Singh, Diljit Dosanjh, Jaura Phagwara..</p></div>
+  <div id="s2"><img src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb1e5f895444f5419cb86e071c/3/en/large" id="mix3"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p12" style="display: none;" ><p id="mix33">Daily Mix 3</p><p id="mix333">Mankirt Aulakh, Sahil Chandi, Parmish Verma..</p></div>
+  <div id="s3"><img src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb87c1e4c80ffe56c4e4b07dc4/4/en/large" id="mix4"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p13" style="display: none;" ><p id="mix44">Daily Mix 4</p><p id="mix444">Billa Sonipat Ala, Masoom Sharma, Khasa Aala ..</p></div>
+  <div id="s4"><img src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb654972693e0efed3f3f4d090/5/en/large" id="mix5"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p14" style="display: none;" ><p id="mix55">Daily Mix 5</p><p id="mix555">Khasa Aala Chahar, Masoom Sharma, Ndee..</p></div>
+  <div id="s5"><img src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb45ffe8746002a85a0170ddbe/6/en/large" id="mix6"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p15" style="display: none;" ><p id="mix66">Daily Mix 6</p><p id="mix666">Vishal-Shekhar, Kavita Krishnamurthy, Himesh..</p></div>
+  <div id="s6"><img src="https://i.scdn.co/image/11258b6c69204820d79575e0587f415735db2350" id="mix7"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p16" style="display: none;" ><p id="mix77">Discover Weekly</p><p id="mix777">Your weekly mixtape of fresh music. Enjoy new..</p></div>
+  <div id="s7"><img src="https://newjams-images.scdn.co/image/ab6764780000c480/dt/v3/release-radar/ab6761610000e5eb53b4f0b39586366c93e55bdc/en" id="mix8"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p17" style="display: none;" ><p id="mix88">Release Radar</p><p id="mix888">Catch all the latest music from artists you follow,..</p></div>
+</div>
+
+<div id="artists">
+  <p id="h3">Your favorite artists</p>
+  <p id="h4">Show All</p>
+
+</div>
+<div class="artistsSong">
+  <div id="a1"><img src="https://i.scdn.co/image/ab6761610000e5eb0261696c5df3be99da6ed3f3" id=arijit><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p111" style="display: none;" ><p id="arijitName">Arijit Singh</p><p id="art">Artist</p></div>
+  <div id="a2"><img src="https://th.bing.com/th/id/OIP.4blFTBkctROpYeTBnDI57wAAAA?rs=1&pid=ImgDetMain" id="king"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p222" style="display: none;" ><p id="kingName">King</p><p id="ki">Artist</p></div>
+  <div id="a3"><img src="https://i.scdn.co/image/ab6761610000e5eb69b76eed88310f86be988a8b" id="harrdy"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p333" style="display: none;" ><p id="harrdyName">Harrdy Sandhu</p><p id="har">Artist</p></div>
+  <div id="a4"><img src="https://www.masala.com/cloud/2022/05/29/unnamed.jpg" id="siddhu"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p444" style="display: none;" ><p id="siddhuName">Siddhu Moose </p><p id="sid">Artist</p></div>
+  <div id="a5"><img src="https://th.bing.com/th/id/R.00b1d098ae3193b1c8a10e4c30c090cf?rik=igapNSEndNOhcA&riu=http%3a%2f%2fwww.mydochub.com%2fimages%2fadele-pregnant.jpg&ehk=JlIIvfRXnQ6zpP553CE9ZsTzlITA%2fhjzp6uPdO1W%2faw%3d&risl=&pid=ImgRaw&r=0" id="adele"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p555" style="display: none;" ><p id="adeleName">Adele Vegas</p><p id="ade">Artist</p></div>
+  <div id="a6"><img src="https://wallpapercave.com/wp/wp7426745.jpg" id="guljar"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p666" style="display: none;" ><p id="guljarName">Gulzaar Chhaniwala</p><p id="gul">Artist</p></div>
+  <div id="a7"><img src="https://th.bing.com/th/id/R.cdb9763cff2d3bf83444f36fb0c5cbb6?rik=VEbhY4bJaaPyzA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwp1959276.jpg&ehk=BIruT%2fTpKDrR3QXsHwd4ZiP5ZHcjaKDJD6J7dLQLBwc%3d&risl=&pid=ImgRaw&r=0" id="Ariana"><img src="https://jccdallas.org/wp-content/uploads/2020/06/Spotify-Play-Button.png" id="p777" style="display: none;" ><p id="arianaName">Ariana Grande</p><p id="ari">Artist</p></div>
+</div>
+
+</div></div>
+<div id="box3">
+  <div id="pro">
+  <audio id="audioPlayer" controls ontimeupdate="updateProgressBar()">
+    <source src="Daku.mpeg" type="audio/mpeg">
+  </audio>
+  
+  <div id="progressBar">
+    <div id="progress"></div>
+  </div></div>
+
+ 
+  <div id="ic">
+<div id="prevButton" class="i"><i class="fa-solid fa-backward"></i></div>
+<div id="playButton" class="i"><i class="fa-solid fa-play"></i></div>
+<div id="pauseButton" class="i"><i class="fa-solid fa-pause"></i></div>
+<div id="nextButton" class="i"><i class="fa-solid fa-forward"></i></div></div></div>
+
+
+
+
+
+
+  <script src="new.js"></script>
+</body>
+</html>
+
